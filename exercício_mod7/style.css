@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1, label, input, button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 420px;
+    margin-bottom: 30px;
+}
+
+form{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 200px;
+}
+
+#num1{
+    width: 188px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#num2{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    padding: 5px;
+    width: 405px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+button:hover{
+    background-color: rgb(124, 224, 24);
+}
+
+.sucess-message{
+    background-color: #27ae60;
+    padding: 16px;
+    color: #ffffff;
+    width: 405px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.invalid-message{
+    background-color: red;
+    padding: 16px;
+    color: #ffffff;
+    width: 405px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+    font-size: 22px;
+    font-weight: 600;
+}
