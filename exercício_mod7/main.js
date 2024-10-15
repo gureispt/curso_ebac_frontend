@@ -15,7 +15,7 @@ valida.addEventListener('submit', function(e){
     containerMessageSucess.style.display = 'none';
     containerMessageInvalid.style.display = 'none';
 
-    // Usa o a função
+    // Usa a função
     if (Validator(num1, num2)) {
         containerMessageSucess.innerHTML = messageSucess;
         containerMessageSucess.style.display = 'block';
